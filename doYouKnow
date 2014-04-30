@@ -1,0 +1,31 @@
+Do You Know?
+Set 7
+1.) act(), getActors(), processActors(), getMoveLocations(), selectMoveLocation(), makeMove()
+2.)     ArrayList<Actor> actors = getActors();
+        processActors(actors);
+        ArrayList<Location> moveLocs = getMoveLocations();
+        Location loc = selectMoveLocation(moveLocs);
+        makeMove(loc);
+3.) it can be overridden in subclasses because it says so in the comments if the list of actors you want to get isn’t just the neighboring ones 
+4.) it can make a list of actors, remove an actor from the board, and ignore them?
+5.) moveTo(), makeMove(), setMoveLocation()
+6.) it inherits the actor one(s) and there are no new instance variables to instantiate
+
+Do You Know?
+Set 8
+1.) because the methods ChameleonCritter does override are called in act()
+2.) because it does the same stuff that the method in its super class does but wight he additional command before it
+3,) You could make a flower and add it to the grid at the tile 180 degrees in front of where it is 
+4.) it doesn’t need to because when it needs to use get actor it still only needs the actors in adjacent locations because it moves one at a time too
+5.) Actors.java
+6.) yes
+
+Do You Know?
+Set 9
+1.) it doesn’t need to, and it wants to process actors the same way a normal critter does
+2.) It gets the actors int the locations in front of it in an array and to eats those ones. It doesn’t always eat all neighboring actors because it can only see the things in the three locations in front of it
+3,) because it only wants to get the locations in front of it so after putting the angle degrees of the locations in front of it into an array getLocationsInDirections can give an ArrayList of the Locations that CrabCritter can process
+4.) (2,5) , (2,4), , (2,6)
+5.) crab moves from left to right, critter moves all around, both move one space at a time
+6.) it the location to move to is where it is it turns it randomly gets a number and turns left or right depending on the number. if not it calls super makeMove
+7.)
