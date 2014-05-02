@@ -28,4 +28,33 @@ Set 9
 4.) (2,5) , (2,4), , (2,6)
 5.) crab moves from left to right, critter moves all around, both move one space at a time
 6.) it the location to move to is where it is it turns it randomly gets a number and turns left or right depending on the number. if not it calls super makeMove
-7.)
+
+Set 10
+1. isValid(Location loc) is implemented in the BoundedGrid and UnboundedGrid.java code 
+2.getValidAdjacentLocations(Location loc) is the only method that uses the isValid(Location loc). The other methods do not have to because they all call the getValidAdjacentLocations(Location loc) method that already uses isValid(Location loc)
+3. the getNeighbors(Location loc) method call getOccupiedAdjacentLocations(Location loc), get(Location loc)
+4. the get method returns objects of type E but the getEmptyLocations method returns 
+location because the get method can return any generic but the getEmptyLocations sets type E into
+a type location so it returns a location so it uses the get method to get the location
+5.if you replace location.half_right with location.right, the for loop
+would end earlier and you wouldnt be able to retrieve all the valid locations
+
+Set 11
+1. the boolean isValid(location loc) method ensures that at a given location, it will be
+valid or not.
+2. the numCols is determined by returning occupantArray[0].length.
+The assumption that the numRows is always greater than 0 so there always exists at least 1 column
+3.The requirements are that the row and col have to between 0 and the maxROw or maxCol
+4.getOccupiedLocations() returns an ArrayList<Location>
+this is O(n^2) because of the nested for loop
+5.get method returns a type E 
+this is O(1)
+6.put method will throw exception when the location is not valid because you can't put something in a location that doesnt exist
+it will also throw when the object is null because you put a null object somewhere, it will be the same grid
+this is O(1)
+7.the remove method returns type E
+when you try to remove from an invalid location, it throws a illegalArgumentException
+this is O(1)
+8.Yes it is efficient and very clean. The fact that most of the methods are O(1) ensures quite fast runtime
+
+
