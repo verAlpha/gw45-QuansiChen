@@ -16,7 +16,7 @@
         are no actors within a one step radius of its current location, the MunchyCritter will move in a 
         random direction for one step.
  *
- * TEST CASES:
+ * TEST CASES://I put these seperately in MunchyCritterRUnner.java
  * First Test Case: A MunchyCritter is placed in a grid where there are only actors except for Rocks. 
         The MunchyCritter would be able to eat anything in its radius and keep moving if there is nothing to eat.
  *Second Test Case: A MunchyCritter is placed in a grid where there are only actors that are Rocks.
