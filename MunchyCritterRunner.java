@@ -17,10 +17,8 @@ public class MunchyCritterRunner(){
                 world.add(new Location(7,8), alice);
 
                 world.add(new Location(6,9), b1);
-                world.add(new Location(3,8), b1);
-                world.add(new Location(1,2), b1);
-                world.add(new Location(5,6), f1);
-                world.add(new Location(8,1), f1);
+                world.add(new Location(3,8), c1);
+                world.add(new Location(1,2), f1);
 
 
         //Test 2
@@ -33,6 +31,20 @@ public class MunchyCritterRunner(){
                 world.add(new Location(5,6), r1);
                 world.add(new Location(8,1), r1);
 
+        */
+        
+        //Test 4
+        /*
+                world.add(new Location(7,8), alice);
+
+                world.add(new Location(6,7), b1);
+                world.add(new Location(6,8), b1);
+                world.add(new Location(6,9), b1);
+                world.add(new Location(7,7), f1);
+                world.add(new Location(7,9), f1);
+                world.add(new Location(8,7), f1);
+                world.add(new Location(8,8), f1);
+                world.add(new Location(8,9), c1);
         */
         
         //Test 5
