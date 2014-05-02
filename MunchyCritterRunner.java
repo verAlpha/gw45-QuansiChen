@@ -1,3 +1,14 @@
+ * Sisi Zimmerman, Brian Quang, Ivetter Chen --- QuansiChen
+ * APCS pd 8
+ * HW#35 GridWorld, Part 4
+ * 2014-05-01
+ 
+import info.gridworld.actor.ActorWorld;
+import info.gridworld.actor.Rock;
+import info.gridworld.grid.Location;
+
+import java.awt.Color;
+
 public class MunchyCritterRunner(){
 
 
@@ -30,6 +41,12 @@ public class MunchyCritterRunner(){
                 world.add(new Location(1,2), r1);
                 world.add(new Location(5,6), r1);
                 world.add(new Location(8,1), r1);
+
+        */
+        
+        //Test 3
+        /*
+                 world.add(new Location(0,0), alice);
 
         */
         
