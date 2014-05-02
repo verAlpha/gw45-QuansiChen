@@ -1,8 +1,8 @@
-///*****************************************************************
- * NAME --- QuansiChen
- * APCS pd #
- * HW## 35 GridWorld, Part 4
- * yyyy-mm-dd
+/*****************************************************************
+ * Sisi Zimmerman, Brian Quang, Ivetter Chen --- QuansiChen
+ * APCS pd 8
+ * HW#35 GridWorld, Part 4
+ * 2014-05-01
  *
  * class MunchyCritter
  *
